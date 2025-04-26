@@ -10,7 +10,7 @@ typedef struct {
 	unsigned int m_uSize;
 	unsigned __int8 *m_pBlock;
 	int m_nPacketType;
-	unsigned int m_uOffset;
+	unsigned int m_uOffset; // +0x10
 	int m_nCipherDegree;
 } BnB_ClientPacket;
 #pragma pack(pop)
